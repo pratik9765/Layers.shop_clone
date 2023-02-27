@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layers.shop</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+
+    <style>
+        .moveParagraph {
+            animation: 20s infinite linear movePara;
+
+        }
+
+        @keyframes movePara {
+            0% {
+                left: 5%;
+
+            }
+
+            100% {
+                left: -70%;
+
+            }
+
+        }
+
+        .moveParagraph2 {
+            animation: 20s infinite linear movePara2;
+
+        }
+
+        @keyframes movePara2 {
+            0% {
+                left: 55%;
+
+            }
+
+            100% {
+                left: -25%;
+
+            }
+
+        }
+
+        .moveParagraph3 {
+            animation: 21s infinite linear movePara3;
+
+        }
+
+        @keyframes movePara3 {
+            0% {
+                left: 105%;
+
+            }
+
+            100% {
+                left: 20%;
+
+            }
+
+        }
+
+
+
+        .new_arrival_img{
+            width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div class="relative w-full h-full overflow-x-hidden">
+
+        <!-- Top section -->
+        <section class="w-full bg-black h-[48px] max-[768px]:hidden">
+            <div class="relative flex flex-row justify-between text-white ">
+                <div>
+                    <p class="absolute top-[0.4rem] left-0 h-full w-full transition-all duration-200 moveParagraph">Buy
+                        2 mobile skins @
+                        ₹799/- and Buy 2 Laptop Skins @ ₹1599/- No coupon code required. 1</p>
+                </div>
+
+
+                <div class="max-[1024px]:hidden">
+                    <p
+                        class="absolute top-[0.4rem] h-full w-full transition-all delay-[2000ms] duration-200  moveParagraph2">
+                        Buy 2 mobile skins @ ₹799/- and Buy 2
+                        Laptop Skins @ ₹1599/- No coupon code required. 2</p>
+                </div>
+
+
+                <div>
+                    <p
+                        class="absolute top-[0.4rem] h-full w-full transition-all  delay-[4000ms] duration-200 moveParagraph3">
+                        Buy 2 mobile skins @ ₹799/- and Buy 2
+                        Laptop Skins @ ₹1599/- No coupon code required. 3</p>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Navbar -->
+        <section class="w-full h-full bg-[#1b1b1c]">
+            <div class="w-11/12 max-w-[1150px] h-[70px] mx-auto flex flex-row justify-evenly items-center">
+                <!-- logo -->
+                <div>
+                    <a href="#">
+                        <img src="/Images/layers_logo.webp" width="100px" alt="">
+                    </a>
+                </div>
+                <div>
+                    <ul
+                        class="relative flex flex-row items-center gap-6 font-sans font-bold tracking-widest text-white max-[768px]:hidden max-[1024px]:text-sm max-[1024px]:gap-3">
+                        <li
+                            class="relative text-white transition-all duration-200 py-9 cursor-pointer hover:text-gray-400 hover:translate-y-[-2px] group ">
+                            <a class="flex flex-row items-center gap-2" href="#">Select Device
+                                <img src="/Images/icons8-expand-arrow-50.png" width="10px" class="max-[1024px]:hidden" alt="">
+                            </a>
+                            <div
+                                class="absolute bottom-3 hidden w-full h-[2px] transition-all duration-200 bg-gray-500 group-hover:block">
+                            </div>
+                        </li>
+                        <li
+                            class="relative text-white transition-all duration-200 py-9 cursor-pointer hover:text-gray-400 hover:translate-y-[-2px] group ">
+                            <a class="flex flex-row items-center gap-2" href="#">Skin Collection
+                                <img src="/Images/icons8-expand-arrow-50.png" width="10px" class="max-[1024px]:hidden" alt="">
+                            </a>
+                            <div
+                                class="absolute bottom-3 hidden w-full h-[2px] transition-all duration-200 bg-gray-500 group-hover:block">
+                            </div>
+                        </li>
+                        <li class="hover:text-gray-400">
+                            <a href="#">FAQs</a>
+                        </li>
+                        <li class="hover:text-gray-400">
+                            <a href="#">Device Not Found ?</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex flex-row items-center font-serif font-bold text-white gap-7">
+                        <li>
+                            <a href="#">
+                                <img src="/Images/icons8-search-30.png" width="18px" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/Images/icons8-cube-50.png" width="18px" alt="">
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="/Images/icons8-user-24.png" width="18px" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="/Images/icons8-shopping-bag-48.png" width="18px" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- First hero section -->
+        <section class="bg-[url('/Images/hero-section.webp')] w-full relative min-h-[750px] max-md:min-h-[300px] bg-auto bg-no-repeat">
+            <div class="absolute flex flex-col items-start gap-0 top-[260px]  max-md:top-16 left-20">
+                <h2 class="font-bold font-sans text-[60px] max-md:text-4xl tracking-[0.2rem]  ">New Year, New Me !</h2>
+                <p class="text-[24px] font-sans -mt-[8px] pb-6">Buy 2 mobile skins @ ₹799</p>
+                <button class="px-6 py-3 text-2xl max-md:text-lg font-semibold text-white bg-black rounded-lg">SHOP MOBILE
+                    SKINS</button>
+            </div>
+        </section>
+
+        <!-- New Arrival section -->
+        <section class="w-full h-full">
+            <div class="h-full max-w-[90%] flex flex-col gap-3 mt-4 justify-evenly mx-auto">
+
+
+                <div>
+                    <h2 class="h-full font-sans text-[1.7rem] ml-6 font-bold">New Arrival</h2>
+                </div>
+
+                <!-- first row -->
+                <div class="relative flex flex-row flex-wrap w-full h-full mx-auto mt-2 justify-evenly">
+                    <div>
+                        <div class="cursor-pointer relativ">
+                            <img src="/Images/laptop-cover-1.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-8 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Trending
+                            </p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Ciudad</p>
+                                <p class="text-lg font-bold">₹1099 <samp
+                                        class="text-lg text-gray-400 line-through">₹1299</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/laptop-cover-2.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Trending
+                            </p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Wolfgang</p>
+                                <p class="text-lg font-bold">₹1099 <samp
+                                        class="text-lg text-gray-400 line-through">₹1299</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/laptop-cover-3.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Trending
+                            </p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Golden Swirl</p>
+                                <p class="text-lg font-bold">₹1099 <samp
+                                        class="text-lg text-gray-400 line-through">₹1299</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/laptop-cover-4.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Trending
+                            </p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Grafitti</p>
+                                <p class="text-lg font-bold">₹1099 <samp
+                                        class="text-lg text-gray-400 line-through">₹1299</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- Second row -->
+                <div class="relative flex flex-row flex-wrap w-full h-full mx-auto mt-6 mb-6 justify-evenly">
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/top-mobile-1.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">NEW</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Empowher</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/top-mobile-2.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">NEW</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Black Smoke</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/top-mobile-3.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">NEW</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Spaceboy</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/top-mobile-4.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">NEW</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">DJ Panda</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- Second hero section -->
+        <section class="bg-[url('/Images/hero-section-2.webp')] w-full relative min-h-[750px] max-md:min-h-[300px] bg-contain scale-x-105   bg-no-repeat max-xl:-mb-[100px] max-md:-mb-[10px] max-lg:-mb-[250px]">
+        </section>
+
+
+
+
+        <!-- The ripple collection -->
+        <section class="w-full h-full">
+            <div class="h-full max-w-[90%] flex flex-col gap-3 mt-4 justify-evenly mx-auto">
+
+
+                <div>
+                    <h2 class="h-full font-sans text-[1.7rem] ml-6 font-bold">The Ripple Collection</h2>
+                </div>
+
+                <!-- row -->
+                <div class="relative flex flex-row flex-wrap w-full h-full mx-auto mt-3 mb-6 justify-evenly">
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/ripple-1.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Charcoal Black</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/ripple-2.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Milky White</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/ripple-3.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Baby Pink</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/ripple-4.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Olive Green</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Third hero section -->
+        <section
+            class="bg-[url('/Images/hero-section-3.webp')] w-full cursor-pointer h-full relative min-h-[750px] scale-x-105 bg-contain bg-no-repeat max-md:min-h-[300px] max-lg:-mb-[250px] max-xl:-mb-[100px] max-md:-mb-[10px] ">
+        </section>
+
+
+        <!-- recently added section -->
+        <section class="w-full h-full">
+            <div class="h-full max-w-[90%] flex flex-col gap-3 mt-4 justify-evenly mx-auto">
+
+
+                <div>
+                    <h2 class="h-full font-sans text-[1.7rem] ml-6 font-bold">Recently Added</h2>
+                </div>
+
+                <!-- first row -->
+                <div class="relative flex flex-row flex-wrap w-full h-full mx-auto mt-2 justify-evenly">
+                    <div>
+                        <div class="cursor-pointer relativ">
+                            <img src="/Images/recently-added-1.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Chestnut</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-2.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Cyan Wood</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-3.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Oceanic</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-4.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Space Blueprint</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <!-- Second row -->
+                <div class="relative flex flex-row flex-wrap w-full h-full mx-auto mt-6 mb-6 justify-evenly">
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-5.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Sew Dune</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-6.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Concrete Texture</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-7.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Astro Rainbow</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/recently-added-8.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Green Botanical</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+
+        <!-- Forth hero section -->
+        <section
+            class="bg-[url('/Images/hero-section-4.webp')] w-full cursor-pointer h-full relative min-h-[750px] bg-cover max-lg:min-h-[400px] max-sm:min-h-[200px]">
+        </section>
+
+
+
+
+        <!-- un-named row -->
+        <section class="w-full h-full">
+            <div class="h-full max-w-[90%] flex flex-col gap-3 mt-7 justify-evenly mx-auto">
+
+
+                <!-- row -->
+                <div class="relative flex flex-row flex-wrap w-full h-full mx-auto mt-3 mb-6 justify-evenly">
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/un-nammed-1.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Black Fluid</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/un-nammed-2.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Ac/Dc Green</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/un-nammed-3.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Escaping Earth</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="relative cursor-pointer">
+                            <img src="/Images/un-nammed-4.webp" width="310px" class="mb-3 max-sm:w-44" alt="">
+                            <p class="absolute left-2 top-2 font-sans text-white bg-[#eba194] px-2 rounded-lg">Buy 2 @
+                                ₹799</p>
+                            <div class="flex flex-row justify-between">
+                            </div>
+                            <div class="flex flex-row justify-between cursor-default">
+                                <p class="text-xl">Black Crack</p>
+                                <p class="text-lg font-bold">₹499 <samp
+                                        class="text-lg text-gray-400 line-through">₹599</samp></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Black Section -->
+        <section class="bg-[url('/Images/black-1.webp')] w-full cursor-pointer h-full relative min-h-[750px] bg-no-repeat max-lg:min-h-[500px] max-sm:min-h-[400px] max-md:-mb-[150px] max-xl:min-h-[550px] max-xl:scale-x-110 bg-contain scale-x-105 max-[520px]:-mb-[200px]">
+        </section>
+
+
+
+        <!-- Gallary Section -->
+        <section class="relative flex flex-col items-center justify-center w-full h-full pt-16 pb-2 mx-auto gap-7">
+            <div class="">
+                <p class="-mb-[0.4rem] font-sans text-2xl font-semibold tracking-widest">FOLLOW US ON INSTAGRAM</p>
+            </div>
+
+
+            <!-- grid -->
+            <div class="grid w-full grid-cols-4 grid-rows-2 space-x-1 space-y-1 ">
+
+
+                <div class="relative mt-1 ml-1 cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-1.webp" width="370px" class="w-full h-full" alt="">
+                </div>
+
+
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-2.webp" width="370px" class="w-full h-full" alt="">
+                </div>
+
+
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-3.webp" width="370px" class="w-full h-full" alt="">
+                </div>
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-4.webp" width="370px" class="w-full h-full" alt="">
+                </div>
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-5.webp" width="370px" class="w-full h-full" alt="">
+                </div>
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-6.jpg" width="370px" class="w-full h-full" alt="">
+                </div>
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-7.jpg" width="370px" class="w-full h-full" alt="">
+                </div>
+                <div class="relative cursor-pointer">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full transition-all duration-200 bg-black bg-opacity-0 hover:bg-opacity-50">
+                    </div>
+                    <img src="/Images/gallary-9.jpg" width="370px" class="w-full h-full" alt="">
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- Footer section -->
+        <section class="w-full h-full font-sans text-white bg-black">
+    
+
+
+
+            <!-- content box -->
+            <div class="w-[70%] mx-auto items-start justify-between pt-10 flex flex-row gap-10 max-lg:flex-col max-lg:justify-start max-lg:items-center max-sm:gap-5">
+
+
+
+                <!-- left part -->
+                <div class="flex flex-col w-full gap-2">
+
+                    <div class="flex flex-row w-full gap-8">
+                        <div class="flex flex-col gap-2 mr-20 max-sm:mr-0">
+                            <p class="pb-3 font-bold">Help</p>
+                            <a class="text-sm" href="">FAQ</a>
+                        </div>
+
+                        <div class="flex flex-col gap-2 mr-6 max-sm:mr-0 ">
+                            <p class="pb-3 font-bold">My Account</p>
+                            <a class="text-sm" href="">Login</a>
+                            <a class="text-sm" href="">Register</a>
+                            <a class="text-sm" href="">Track Order</a>
+                        </div>
+
+                        <div class="flex flex-col gap-2">
+                            <p class="pb-3 font-bold">Pages</p>
+                            <a class="text-sm" href="">About Us</a>
+                            <a class="text-sm" href="">Contact Us</a>
+                            <a class="text-sm" href="">Terms and condition</a>
+                            <a class="text-sm" href="">Privacy Policy</a>
+                            <a class="text-sm" href="">Refund/Cancellation/Shipping</a>
+                            <a class="text-sm" href="">Policy</a>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="relative flex flex-col w-full gap-1">
+                        <img src="/Images/payment-icon-1.avif" width="310px" alt="">
+                        <p class="mb-2 text-xs pl-28">100% Secure Payments</p>
+                    </div>
+
+                </div>
+
+
+
+                <!-- right part -->
+                <div class="w-full h-full ml-[250px] max-sm:ml-[50px]">
+                    <div class="flex flex-col gap-3">
+                        <p class="font-bold ">More About Layers</p>
+                        <div class="flex flex-row gap-2">
+                            <div class="relative py-3 mb-4 bg-white px-14">
+                                <img src="/Images/newslatter-icon.png" alt="">
+                                <div
+                                    class="absolute left-0 w-full py-0 pt-2 text-xs text-black underline bg-gray-300 top-14 px-14">
+                                    <a href="">NEWS LETTER</a>
+                                </div>
+
+                            </div>
+                            <div class="relative py-3 mb-4 bg-white px-14">
+
+                                <img src="/Images/blog-icon.png" alt="">
+                                <div
+                                    class="absolute left-0 w-full py-1 pt-2 text-xs text-black underline bg-gray-300 top-14 px-14">
+                                    BLOG
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="flex flex-row w-full gap-3 mt-16">
+                        <a href="">
+                            <img src="/Images/icons8-instagram-48.png" width="30px" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/Images/icons8-facebook-48.png" width="30px" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/Images/icons8-twitter-48.png" width="30px" alt="">
+                        </a>
+                        <a href="">
+                            <img src="/Images/icons8-youtube-48.png" width="30px" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    
+
+    </div>
+</body>
+
+</html>
